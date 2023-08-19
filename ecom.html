@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecom</title>
+    <meta name="Ratnesh Kumar Singhaniya">
+    <link rel="stylesheet" href="ecom.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+</head>
+<body>
+     <header class="heading d-flex grow-shrink-basis align-center fixed top-0 left-0">
+          <div class="heading-title-icon d-flex align-center">
+              <h1 class="heading-title">
+                  <a class="link" href="#">MailMan</a>
+              </h1>
+          </div>
+          <div class="search-box-container relative ">
+               <input class="search-box-input" placeholder="Search Products">
+               <span class="material-icons-outlined absolute top-0 left-0">
+                    search
+                    </span>
+          </div>
+          <nav class="navigation">
+              <ul class="list-non-bullet d-flex gap align-center ">
+
+                  <li class="list-item-inline">
+                      <a href="./wishlist.html" class="link cursor">
+                         <span class="material-icons-outlined">
+                              favorite
+                              </span>
+                      </a>
+                  </li>
+                  <li class="list-item-inline">
+                      <a href="./cart.html" class="link cursor">
+                         <span class="material-icons-outlined">
+                         shopping_cart
+                         </span>
+                    </a>
+                  </li>
+              </ul>
+          </nav>
+      </header>
+      <div class="products-page d-flex">
+        <aside class="side-bar">
+            <h3 class="heading-3">Filters</h3>
+            <div class="filter-container">
+                <h3 class="heading-3">Ratings</h3>
+                <div class="d-flex align-center gap">
+                    <input data-rating ="4", id = "rating-4" class = "radio" type="radio" name="rating">
+                    <label data-rating ="4",class="label" for="rating-4">4 Stars and Above</label>
+                </div>
+                <div class="d-flex align-center gap">
+                    <input data-rating ="3",id = "rating-3" class = "radio" type="radio" name="rating">
+                    <label data-rating ="3",class="label" for="rating-3">3 Stars and Above</label>
+                </div>
+                <div class="d-flex align-center gap">
+                    <input data-rating ="2",id="rating-2" class = "radio" type="radio" name="rating">
+                    <label data-rating ="2",class="label" for="rating-2">2 Stars and Above</label>
+                </div>
+                <div class="d-flex align-center gap">
+                    <input data-rating ="1",id = "rating-1" class = "radio" type="radio" name="rating">
+                    <label data-rating ="1",class="label" for="rating-1">1 Stars and Above</label>
+                </div>
+
+            </div>
+            <div class="discount-container">
+                <h3>Discount</h3>
+                <div class="d-flex align-center gap">
+                    <input data-discount="50" class="radio" id="discount-1" type="radio" name="discount">
+                    <label data-discount="50" class="label-1" for="discount-1"> 50 % and Above</label>
+                </div>
+                <div class="d-flex align-center gap" >
+                    <input data-discount="30" class="radio" id="discount-2" type="radio" name="discount">
+                    <label data-discount="30" class="label-1" for="discount-2"> 30 % and Above</label>
+                </div>
+                <div class="d-flex align-center gap">
+                    <input data-discount="15" class="radio" id="discount-3" type="radio" name="discount">
+                    <label data-discount="15" class="label-1" for="discount-3"> 15 % and Above</label>
+                </div>
+
+            </div>
+            
+
+        </aside>
+        <div id="product" class="product-container d-flex wrap gap"></div>
+      </div>
+
+    
+</body>
+<script type="module" src="ecom.js">ecom.js</script>
+</html>

@@ -1,0 +1,162 @@
+@import url("https://uilight.netlify.app/main.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+:root {
+    --primary-color: #334155;
+  }
+  
+  .heading {
+    background-color: var(--background-color);
+    padding: 0.5rem 3rem;
+    color: var(--primary-color);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    width: 100vw;
+    justify-content: space-between;
+  }
+  
+  .search-box-input {
+    width: 18rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    background-color: transparent;
+  }
+  
+  .search-box-input:focus {
+    outline: none;
+  }
+  
+  .nav-icon {
+    font-size: 2rem;
+  }
+  
+  .products-page {
+    padding: 6rem 3rem 2rem 3rem;
+  }
+  .card-vertical {
+    width: 16rem;
+  }
+  
+  .card-image-container {
+    width: 100%;
+    height: 240px;
+  }
+  
+  .card-image {
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .star {
+    color: orange;
+  }
+  
+  .card-price {
+    gap: 4px;
+  }
+  
+  .price-strike-through,
+  .discount {
+    font-size: 14px;
+    
+  }
+  .discount{
+    color: red;
+  }
+  
+  .gap-sm {
+    gap: 8px;
+  }
+  
+  .main {
+    padding-top: 8rem;
+  }
+  
+  .heading-2 {
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+  
+  .final-price {
+    width: 25rem;
+    background-color: var(--card-background);
+    align-self: flex-start;
+  }
+  
+  .justify-space-between {
+    justify-content: space-between;
+  }
+  
+  .side-bar {
+    width: 20rem;
+    position: fixed;
+  }
+  
+  .product-container {
+    margin-left: 19rem;
+  }
+  
+  .heading-3 {
+    padding: 10px 0;
+  }
+  
+  .filter-container {
+    padding: 1rem 0;
+  }
+  
+  .label {
+    font-size: 1.25rem;
+  }
+  
+  .radio {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  .discount-container{
+    padding: 1 px;
+  }
+
+  .display-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20 px;
+  }
+
+.label-1{
+  font-size: 1.25 rem;
+}
+
+.paymentpage{
+  display: grid;
+  padding: 20vh;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  }
+
+.complete{
+  color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.anchor{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color:#334155 ;
+  
+}
+
+.anchor:hover{
+  color:#0056b3;
+}
+.anchor:visited{
+  color:#334155 ;
+}
